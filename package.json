@@ -1,0 +1,18 @@
+{
+  "name": "mustafa-react",
+  "version": "1.0.0",
+  "description": "This is Mustafa React by Ghulam Mustafa",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmustafa123/mustafa-react.git"
+  },
+  "author": "Ghulam Mustafa",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
