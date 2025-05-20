@@ -2,8 +2,9 @@
   "name": "mustafa-react",
   "version": "1.0.0",
   "description": "This is Mustafa React by Ghulam Mustafa",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -13,6 +14,15 @@
   "author": "Ghulam Mustafa",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.14.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "brouserslist": [
+    "last 2 versions"
+  ]
 }
